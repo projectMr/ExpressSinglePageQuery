@@ -1,0 +1,34 @@
+html,body{
+  *{
+    padding: 0;
+    margin: 0;
+  }
+}
+.wrapDiv{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction:column;
+  overflow-y:hidden;
+  overflow-x:hidden;
+}
+header{
+  height: 2rem;
+}
+.footerTitle{
+  color: block;
+  font-family: 'STKaiti';
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+  text-align: center;
+}
+.adress{
+  margin-top: 20px;
+  width: 100%;
+  height: 5rem;
+  padding: 10px 20px;
+  overflow-y:scroll;
+  line-height: 0.5rem;
+    word-wrap: break-word;
+}

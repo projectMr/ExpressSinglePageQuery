@@ -1,0 +1,26 @@
+body,html{
+
+}
+.wrapMovie{
+
+}
+.detail{
+   animation: rightToleft 2s;
+}
+.my-NavBar{
+  position: relative;
+  z-index: 999999999999999;
+}
+.noticeBar{
+  position: relative;
+  z-index: 999999999999999;
+}
+.cotainMovie{
+ margin: 0 auto;
+ width: 96%;
+ height: 100vh;
+
+}
+.heightfooter{
+  height: 1rem;
+}

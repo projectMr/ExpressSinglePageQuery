@@ -1,0 +1,24 @@
+body{
+   overflow-y:hidden;
+}
+.linkJump{
+  color: black;
+}
+.my-NavBar{
+  background: #404040;
+}
+.my-drawer {
+  position: relative;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  height: 100vh;
+}
+.my-drawer .am-drawer-sidebar {
+  background-color: #fff;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.my-drawer .am-drawer-sidebar .am-list {
+  width: 6rem;
+  padding: 0;
+}

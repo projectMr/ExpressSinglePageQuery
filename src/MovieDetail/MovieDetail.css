@@ -1,0 +1,15 @@
+.wrapDetail{
+  /*padding: 20px;*/
+}
+.contant{
+  padding: 20px;
+  animation: rightToleft 2s;
+}
+@keyframes rightToleft {
+  0%{
+    transform: translateX(100%);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
